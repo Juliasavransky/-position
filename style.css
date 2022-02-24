@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@800&display=swap');
+.container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-color: #fcfaf7;
+}
+.main {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 118.6rem;
+  height: 72rem;
+  background-color: #0e1649;
+  position: absolute;
+}
+h1 {
+  font-family: 'Assistant', sans-serif;
+  font-size: 6.4rem;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fcfaf7;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.polygons-top {
+  width: 16.3rem;
+  position: absolute;
+  top: -8.15rem;
+  right: 18.9rem;
+}
+.polygons-bottom {
+  width: 13.2rem;
+
+  position: absolute;
+  bottom: 15.5rem;
+  left: -6.6rem;
+}
+.ellipse-top {
+  width: 28.3rem;
+  height: 28.3rem;
+  border-radius: 50%;
+  background-color: #ff9f00;
+  position: absolute;
+  top: -12.6rem;
+  right: -12.6rem;
+}
+.ellipse-bottom {
+  width: 10.4rem;
+  height: 10.4rem;
+  border-radius: 50%;
+  background-color: #ff9f00;
+
+  position: absolute;
+  bottom: -5.2rem;
+  left: 15.1rem;
+}
+.rectangle-top {
+  width: 17.6rem;
+  height: 17.6rem;
+  background-color: #ff7748;
+
+  position: absolute;
+  top: 22.5rem;
+  right: -8.8rem;
+}
+.rectangle-bottom {
+  width: 17.6rem;
+  height: 17.6rem;
+  background-color: #ff7748;
+
+  position: absolute;
+  bottom: -8.8rem;
+  left: -8.8rem;
+}
+.logo {
+  position: absolute;
+  top: 7.8rem;
+  left: -18rem;
+}
